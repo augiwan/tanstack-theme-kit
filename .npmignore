@@ -1,0 +1,32 @@
+# Source files
+src/
+tsconfig.json
+tsdown.config.ts
+
+# Development files
+*.log
+.DS_Store
+.git/
+.gitignore
+
+# Test files
+test/
+tests/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Build artifacts
+node_modules/
+.turbo/
+.cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Only include what's in the "files" field of package.json
