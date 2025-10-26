@@ -1,0 +1,56 @@
+{
+  "name": "tanstack-theme-kit",
+  "version": "0.1.0",
+  "description": "Perfect dark mode for TanStack Start and React apps in 2 lines of code",
+  "author": "Augustus D'Souza",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/augiwan/tanstack-theme-kit.git"
+  },
+  "keywords": [
+    "react",
+    "tanstack",
+    "tanstack-start",
+    "dark-mode",
+    "theme",
+    "themes",
+    "dark-theme",
+    "light-theme",
+    "system-theme",
+    "prefers-color-scheme"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "tsdown": "^0.15.9",
+    "react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
