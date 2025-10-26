@@ -4,6 +4,7 @@
   "description": "Perfect dark mode for TanStack Start and React apps in 2 lines of code",
   "author": "Augustus D'Souza",
   "license": "MIT",
+  "readme": "README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/augiwan/tanstack-theme-kit.git"
